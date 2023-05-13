@@ -1,0 +1,65 @@
+grand_cafe_restaurant
+<- concept_food_establishment;
+=> nrel_main_idtf:
+	[Гранд Кафе] (* <- lang_ru;; *);
+	[Grand Cafe] (* <- lang_en;; *);;
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Гранд Кафе] (* <- lang_ru;; *);
+	[Grand Cafe] (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://путь_к_файлу"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);
+
+definition -> definition_of_grand_cafe_restaurant (*
+	-> rrel_key_sc_element: grand_cafe_restaurant;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Grand Cafe - это заведение общественного питания, которое предлагает широкий выбор блюд европейской и белорусской кухни, а также различные напитки и коктейли. Он расположен в центре города и предлагает своим посетителям уютную атмосферу и высокий уровень обслуживания. Grand Cafe может быть как местом для бизнес-ланчей и ужинов, так и для проведения торжественных мероприятий.] (* <- lang_ru;; *);;
+		-> [Grand Cafe is a catering facility that offers a wide variety of European and Belarusian dishes, as well as various drinks and cocktails. It is located in the center of the city and offers its visitors a cozy atmosphere and a high level of service. Grand Cafe can be a place for business lunches and dinners, as well as for festive events.] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (Гранд Кафе)] (* <- lang_ru;; *);
+		[Def. (Grand Cafe)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		grand_cafe_restaurant;
+		concept_catering_facility;
+		concept_dishes;
+		concept_drinks;
+		concept_coctail;
+		concept_city;
+		nrel_level_of_service
+	};;
+*);;
+
+statement -> statement_of_performances_and_events (*
+	-> rrel_key_sc_element: grand_cafe_restaurant;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [В Grand Cafe в Минске часто организуются музыкальные выступления, дегустации вин и другие мероприятия для посетителей.] (* <- lang_ru;; *);;
+		-> [Grand Cafe in Minsk often organizes musical performances, wine tastings and other events for visitors.] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (О проведении выступлений и мероприятий)] (* <- lang_ru;; *);
+		[Stat. (About performances and events)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		minsk;
+		grand_cafe_restaurant;
+		concept_music;
+		concept_wine;
+		concept_visitors;
+		concept_events
+	};;
+*);;

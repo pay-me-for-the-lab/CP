@@ -2,22 +2,22 @@ alivaria_brewery_museum
 <- concept_museum;
 => nrel_main_idtf:
 	[Музей пивоварения "Аливария"] (* <- lang_ru;; *);
-	[Alivaria Brewery Museum] (* <- lang_en;; *);;
+	[Alivaria Brewery Museum] (* <- lang_en;; *);
 
 <- rrel_key_sc_element: ...
 (*
  <- illustration;;
  => nrel_main_idtf:
-  	[Музей пивоварения "Аливария"] (* <- lang_ru;; *);
-	[Alivaria Brewery Museum] (* <- lang_en;; *);;
+  	[Музей истории белорусской литературы] (* <- lang_ru;; *);
+	[The History of Belarusian Literature Museum] (* <- lang_en;; *);;
  <= nrel_sc_text_translation: ...
  (*
-  -> rrel_example: "file://путь_к_файлу"
+  -> rrel_example: "file://photos/alivaria_brewery_museum.png"
   (*
    => nrel_format: format_png;;
   *);;
  *);;
-*);
+*);;
 
 definition -> definition_of_alivaria_brewery_museum (*
 	-> rrel_key_sc_element: alivaria_brewery_museum;;
@@ -38,7 +38,7 @@ definition -> definition_of_alivaria_brewery_museum (*
 		belarus;
 		concept_brewing_history;
 		concept_exposition;
-		concept_Alivaria_company;
+		alivaria_company;
 		concept_beer_types;
 		concept_beer_tastings;
 		concept_brewery_tours;

@@ -50,8 +50,8 @@ definition -> definition_of_history_of_belarusian_cinema_museum (*
 		concept_interactive_activities;
 		concept_filmmaking;
 		concept_screenings;
-		concept_classic_Belarusian_films;
-		concept_new_Belarusian_films;
+		concept_classic_belarusian_films;
+		concept_new_belarusian_films;
 		concept_master_classes;
 		concept_lectures;
 		concept_events;

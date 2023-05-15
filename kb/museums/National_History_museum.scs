@@ -35,8 +35,8 @@ definition -> definition_of_national_art_museum (*
 		concept_museum;
 		national_history_museum;
 		concept_location;
-		concept_Minsk;
-		concept_Belarus;
+		minsk;
+		belarus;
 		concept_foundation;
 		concept_artifacts;
 		concept_eras;

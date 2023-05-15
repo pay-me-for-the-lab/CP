@@ -34,15 +34,24 @@ definition -> definition_of_national_art_museum (*
 	=> nrel_using_constants: {
 		concept_museum;
 		national_history_museum;
-		belarus;
-		concept_history;
-		nrel_located;
-		minsk;
-		concept_country;
+		concept_location;
+		concept_Minsk;
+		concept_Belarus;
+		concept_foundation;
 		concept_artifacts;
+		concept_eras;
+		concept_stone_age;
+		concept_present_day;
+		concept_archaeological_finds;
+		concept_paintings;
 		concept_icons;
-		concept_books;
+		concept_rare_books;
 		concept_documents;
-		concept_weapons
+		concept_weapons;
+		concept_furniture;
+		nrel_located_in;
+		nrel_founded_by;
+		nrel_exhibits;
+		nrel_includes
 	};;
 *);;

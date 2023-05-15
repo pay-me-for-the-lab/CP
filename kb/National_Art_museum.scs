@@ -34,13 +34,18 @@ definition -> definition_of_national_art_museum (*
 	=> nrel_using_constants: {
 		concept_museum;
 		national_art_museum;
-		concept_art;
-		belarus;
+		concept_location;
 		minsk;
-		concept_center;
+		belarus;
+		concept_foundation;
 		concept_exhibits;
-		concept_artists;
+		concept_belarusian_artists;
+		concept_foreign_artists;
 		concept_eras;
-		concept_syles
+		concept_styles;
+		nrel_located_in;
+		nrel_founded_by;
+		nrel_holds;
+		nrel_includes
 	};;
 *);;

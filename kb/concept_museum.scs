@@ -18,16 +18,33 @@ definition -> definition_of_museum (*
 
 	=> nrel_using_constants: {
 		concept_museum;
-		nrel_collection;
-		nrel_research;
-		nrel_exhibition;
-		nrel_promotion;
-		concept_material;
-		concept_spiritual_treasure;
-		concept_objects;
-		concept_artifacts;
-		concept_activities;
-		concept_visitors
+		concept_institution;
+		concept_collection;
+		concept_preservation;
+		concept_research;
+		concept_exhibition;
+		concept_promotion;
+		concept_humanity;
+		concept_artifact;
+		concept_art;
+		concept_historical_significance;
+		concept_scientific_significance;
+		concept_artistic_significance;
+		concept_cultural_significance;
+		concept_educational_activities;
+		concept_cultural_activities;
+		concept_visitor;
+		concept_knowledge;
+		concept_aesthetic_appreciation;
+		nrel_is_dedicated_to;
+		nrel_houses;
+		nrel_provides_activities;
+		nrel_gives_opportunity_to;
+		nrel_expands_knowledge;
+		nrel_develops_appreciation;
+		nrel_can_have;
+		nrel_can_include;
+		nrel_related_to
 	};;
 *);;
 
@@ -46,10 +63,44 @@ statement -> statement_of_museum (*
 	=> nrel_using_constants: {
 		concept_museum;
 		concept_institution;
-		concept_role;
-		nrel_promoting;
-		concept_history;
+		concept_collection;
+		concept_preservation;
+		concept_research;
+		concept_exhibition;
+		concept_promotion;
+		concept_material_treasures;
+		concept_spiritual_treasures;
+		concept_humanity;
+		concept_artifacts;
 		concept_art;
-		concept_education
+		concept_historical_significance;
+		concept_scientific_significance;
+		concept_artistic_significance;
+		concept_cultural_significance;
+		concept_educational_activities;
+		concept_cultural_activities;
+		concept_past;
+		concept_present;
+		concept_human_development;
+		concept_aesthetic_appreciation;
+		nrel_houses;
+		nrel_can_include;
+		nrel_provides;
+		nrel_gives_opportunity;
+		nrel_expands_knowledge;
+		nrel_develops_appreciation;
+		nrel_plays_role_in;
+		nrel_preserves;
+		nrel_promotes;
+		nrel_contributes_to;
+		nrel_educates;
+		nrel_serves;
+		nrel_is_dedicated_to;
+		nrel_features;
+		nrel_is_important_for;
+		nrel_provides_opportunities_for;
+		nrel_promotes_history;
+		nrel_promotes_culture;
+		nrel_promotes_art
 	};;
 *);;

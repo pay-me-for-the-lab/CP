@@ -17,15 +17,19 @@ definition -> definition_of_food_establishment (*
 		[Def. (Food establishment)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
+		concept_food_establishment;
 		concept_organization;
-		concept_visitor;
 		concept_food;
 		concept_drinks;
-		concept_food_establishment;
-		concept_bar;
 		concept_restaurant;
-		concept_canteens;
-		concept_place
+		concept_cafe;
+		concept_bar;
+		concept_snack_bar;
+		concept_canteen;
+		nrel_serves;
+		nrel_includes;
+		nrel_designed_to;
+		nrel_similar_to
 	};;
 *);;
 
@@ -43,12 +47,20 @@ statement -> statement_of_food_establishment (*
 
 	=> nrel_using_constants: {
 		concept_food_establishment;
-		concept_element;
-		concept_city;
-		concept_infrastructure;
-		concept_place;
+		concept_city_infrastructure;
 		concept_food;
 		concept_drinks;
-		concept_atmosphre
+		concept_restaurant;
+		concept_cafe;
+		concept_bar;
+		concept_snack_bar;
+		concept_canteen;
+		concept_atmosphere;
+		nrel_includes;
+		nrel_represents;
+		nrel_serve;
+		nrel_enjoy;
+		nrel_spend_time_in;
+		nrel_provide
 	};;
 *);;

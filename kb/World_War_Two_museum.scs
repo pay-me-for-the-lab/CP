@@ -2,7 +2,7 @@ world_war_two_museum
 <- concept_museum;
 => nrel_main_idtf:
 	[Музей истории Великой Отечественной войны] (* <- lang_ru;; *);
-	[World War Two museum] (* <- lang_en;; *);;
+	[World War Two Museum] (* <- lang_en;; *);;
 
 <- rrel_key_sc_element: ...
 (*
@@ -32,11 +32,15 @@ definition -> definition_of_world_war_two_museum (*
 		[Def. (World War Two museum)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
-		world_war_two_museum;
-		concept_war;
 		concept_museum;
-		concept_history;
-		concept_artifacts
+		world_war_two_museum;
+		concept_state_cultural_institution;
+		republic_of_belarus;
+		concept_history_of_the_great_patriotic_war;
+		concept_collection_of_artifacts;
+		nrel_is_a_state_cultural_institution_of;
+		nrel_is_the_first_museum_of;
+		nrel_has_the_largest_collection_of
 	};;
 *);;
 

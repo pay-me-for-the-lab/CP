@@ -34,11 +34,21 @@ definition -> definition_of_grand_cafe_restaurant (*
 	=> nrel_using_constants: {
 		grand_cafe_restaurant;
 		concept_catering_facility;
-		concept_dishes;
+		concept_european_dishes;
+		concept_belarusian_dishes;
 		concept_drinks;
-		concept_coctail;
-		concept_city;
-		nrel_level_of_service
+		concept_cocktails;
+		concept_center_of_the_city;
+		concept_cozy_atmosphere;
+		concept_high_level_of_service;
+		concept_business_lunches;
+		concept_business_dinners;
+		concept_festive_events;
+		nrel_offers;
+		nrel_includes;
+		nrel_located_in;
+		nrel_provides;
+		nrel_can_be_used_for
 	};;
 *);;
 
@@ -55,11 +65,21 @@ statement -> statement_of_performances_and_events (*
 		[Stat. (About performances and events)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
-		minsk;
 		grand_cafe_restaurant;
-		concept_music;
-		concept_wine;
-		concept_visitors;
-		concept_events
+		minsk;
+		concept_catering_facility;
+		concept_european_dishes;
+		concept_belarusian_dishes;
+		concept_drinks;
+		concept_cocktails;
+		concept_business_lunches;
+		concept_business_dinners;
+		concept_festive_events;
+		concept_musical_performances;
+		concept_wine_tastings;
+		concept_events;
+		nrel_located_in;
+		nrel_offers;
+		nrel_organizes
 	};;
 *);;

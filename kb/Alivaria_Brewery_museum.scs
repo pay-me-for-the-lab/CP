@@ -36,14 +36,20 @@ definition -> definition_of_alivaria_brewery_museum (*
 		alivaria_brewery_museum;
 		minsk;
 		belarus;
-		concept_company;
+		concept_brewing_history;
 		concept_exposition;
-		nrel_brewing;
-		concept_history;
-		concept_visitors;
-		nrel_learn;
-		concept_beer;
-		concept_tours;
-		nrel_beer_tasting
+		concept_Alivaria_company;
+		concept_beer_types;
+		concept_beer_tastings;
+		concept_brewery_tours;
+		nrel_located_in;
+		nrel_opened_on_the_basis_of;
+		nrel_represents;
+		nrel_dedicated_to;
+		nrel_includes;
+		nrel_gets_acquainted_with;
+		nrel_offers;
+		nrel_provides_tastings;
+		nrel_provides_tours
 	};;
 *);;

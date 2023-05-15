@@ -34,10 +34,15 @@ definition -> definition_of_mini_country_museum (*
 	=> nrel_using_constants: {
 		concept_museum;
 		mini_country_museum;
+		concept_location;
 		minsk;
-		concept_iconic_buildings;
+		belarus;
+		concept_miniature_replicas;
+		concept_buildings;
 		concept_landmarks;
 		concept_countries;
-		concept_world
+		concept_world;
+		concept_iconic;
+		nrel_features
 	};;
 *);;

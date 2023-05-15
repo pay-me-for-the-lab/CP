@@ -33,15 +33,16 @@ definition -> definition_of_groshi_money_museum (*
 
 	=> nrel_using_constants: {
 		concept_museum;
-		concept_money;
-		concept_history;
+		groshi_money_museum;
+		concept_history_of_money;
 		concept_finance;
-		concept_artifacts;
-		concept_countries;
-		concept_eras;
-		concept_banknotes;
 		concept_coins;
+		concept_banknotes;
+		concept_medals;
+		concept_printing_plates;
 		concept_documents;
-		concept_items
+		concept_monetary_circulation;
+		nrel_contains;
+		nrel_related_to
 	};;
 *);;

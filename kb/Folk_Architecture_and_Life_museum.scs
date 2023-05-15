@@ -34,17 +34,25 @@ definition -> definition_of_folk_architecture_and_life_museum (*
 	=> nrel_using_constants: {
 		concept_museum;
 		folk_architecture_and_life_museum;
-		concept_town;
 		nizhny_dwor;
 		belarus;
-		concept_architecture;
+		concept_folk_architecture;
 		concept_life;
-		concept_buildings;
-		concept_regions;
+		concept_national_complex;
+		concept_regions_of_Belarus;
 		concept_visitors;
-		concept_people;
-		concept_costumes;
+		concept_life_and_customs;
+		concept_Belarusian_people;
+		concept_national_costumes;
+		concept_crafts;
 		concept_folk_music;
-		concept_dances
+		concept_folk_dances;
+		nrel_located_in;
+		nrel_founded_by;
+		nrel_represents;
+		nrel_comprises;
+		nrel_gets_acquainted_with;
+		nrel_see;
+		nrel_showcases
 	};;
 *);;

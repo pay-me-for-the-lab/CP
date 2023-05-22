@@ -57,3 +57,10 @@ definition -> definition_of_jewish_history_and_culture_museum (*
 		nrel_related_to
 	};;
 *);;
+
+jewish_history_and_culture_museum
+	=> nrel_museum_type: history_and_culture_museum;
+	=> nrel_capacity: not_specified;
+	=> nrel_ticket_price: not_specified;
+	=> nrel_coordinates: 53.922735_27.563394;
+	=> nrel_age_restictions: 0_plus;;

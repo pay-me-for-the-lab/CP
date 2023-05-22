@@ -46,3 +46,10 @@ definition -> definition_of_groshi_money_museum (*
 		nrel_related_to
 	};;
 *);;
+
+groshi_money_museum
+	=> nrel_museum_type: money_museum;
+	=> nrel_capacity: 50_plus;
+	=> nrel_ticket_price: 10_to_45;
+	=> nrel_coordinates: 53.906400_27.557492;
+	=> nrel_age_restictions: 0_plus;;

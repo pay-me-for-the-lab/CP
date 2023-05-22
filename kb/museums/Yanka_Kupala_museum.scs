@@ -63,3 +63,10 @@ definition -> definition_of_yanka_kupala_museum (*
 		nrel_conducts_research_in
 	};;
 *);;
+
+yanka_kupala_museum
+	=> nrel_museum_type: literature_museum;
+	=> nrel_capacity: 100_plus;
+	=> nrel_ticket_price: 4_to_6;
+	=> nrel_coordinates: 53.906147_27.565171;
+	=> nrel_age_restictions: 0_plus;;

@@ -49,3 +49,10 @@ definition -> definition_of_national_art_museum (*
 		nrel_includes
 	};;
 *);;
+
+national_art_museum
+	=> nrel_museum_type: art_museum;
+	=> nrel_capacity: 100_plus;
+	=> nrel_ticket_price: 4_to_10;
+	=> nrel_coordinates: 53.898538_27.560898;
+	=> nrel_age_restictions: 0_plus;;

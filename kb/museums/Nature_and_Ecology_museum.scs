@@ -59,3 +59,10 @@ definition -> definition_of_nature_and_ecology_museum (*
 		nrel_related_to
 	};;
 *);;
+
+nature_and_ecology_museum
+	=> nrel_museum_type: nature_and_ecology_museum;
+	=> nrel_capacity: 50_plus;
+	=> nrel_ticket_price: 2_to_7;
+	=> nrel_coordinates: 53.896816_27.555354;
+	=> nrel_age_restictions: 0_plus;;

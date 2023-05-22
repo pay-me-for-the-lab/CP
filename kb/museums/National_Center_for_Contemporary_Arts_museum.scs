@@ -55,3 +55,10 @@ definition -> definition_of_national_center_for_contemporary_arts_museum (*
 		nrel_international
 	};;
 *);;
+
+national_center_for_contemporary_arts_museum
+	=> nrel_museum_type: art_museum;
+	=> nrel_capacity: 100_plus;
+	=> nrel_ticket_price: 3_to_15;
+	=> nrel_coordinates: 53.930157_27.596575;
+	=> nrel_age_restictions: 0_plus;;

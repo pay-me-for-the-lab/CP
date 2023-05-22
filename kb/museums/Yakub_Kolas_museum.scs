@@ -54,3 +54,10 @@ definition -> definition_of_yakub_kolas_museum (*
 		nrel_visitors_can_see
 	};;
 *);;
+
+yakub_kolas_museum
+	=> nrel_museum_type: literature_museum;
+	=> nrel_capacity: 50_plus;
+	=> nrel_ticket_price: 5;
+	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_age_restictions: 0_plus;;

@@ -51,3 +51,10 @@ definition -> definition_of_interior_ministry_museum (*
 		nrel_contains
 	};;
 *);;
+
+interior_ministry_museum
+	=> nrel_museum_type: ministry_of_the_interior_museum;
+	=> nrel_capacity: 20;
+	=> nrel_ticket_price: free;
+	=> nrel_coordinates: 53.898919_27.551947;
+	=> nrel_age_restictions: 14_plus;;

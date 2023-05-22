@@ -61,3 +61,10 @@ definition -> definition_of_vankovics_house_museum (*
 		nrel_related_to
 	};;
 *);;
+
+vankovics_house_museum
+	=> nrel_museum_type: home_museum;
+	=> nrel_capacity: 50_plus;
+	=> nrel_ticket_price: 6_to_8;
+	=> nrel_coordinates: 53.904995_27.560068;
+	=> nrel_age_restictions: 0_plus;;

@@ -58,3 +58,10 @@ definition -> definition_of_open_ocean_museum (*
 		nrel_of_all_ages
 	};;
 *);;
+
+open_ocean_museum
+	=> nrel_museum_type: ocean_museum;
+	=> nrel_capacity: 30_plus;
+	=> nrel_ticket_price: 6_to_8;
+	=> nrel_coordinates: 53.876851_27.532769;
+	=> nrel_age_restictions: 0_plus;;

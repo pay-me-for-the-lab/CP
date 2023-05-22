@@ -61,3 +61,10 @@ definition -> definition_of_history_of_minsk_museum (*
 		nrel_offers
 	};;
 *);;
+
+history_of_minsk_museum
+	=> nrel_museum_type: history_museum;
+	=> nrel_capacity: 100_plus;
+	=> nrel_ticket_price: not_specified;
+	=> nrel_coordinates: 53.903943_27.553533;
+	=> nrel_age_restictions: 0_plus;;

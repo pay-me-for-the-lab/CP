@@ -58,3 +58,10 @@ definition -> definition_of_workshop_of_azgur_museum (*
 		nrel_offers
 	};;
 *);;
+
+workshop_of_azgur_museum
+	=> nrel_museum_type: workshop_museum;
+	=> nrel_capacity: 50_plus;
+	=> nrel_ticket_price: not_specified;
+	=> nrel_coordinates: 53.899200_27.578407;
+	=> nrel_age_restictions: 0_plus;;

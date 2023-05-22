@@ -56,3 +56,10 @@ definition -> definition_of_aviation_technology_museum (*
 		nrel_has_a_souvenir_shop
 	};;
 *);;
+
+aviation_technology_museum
+	=> nrel_museum_type: aviation_technology_museum;
+	=> nrel_capacity: 100_plus;
+	=> nrel_ticket_price: 4_to_20;
+	=> nrel_coordinates: 53.960758_27.651198;
+	=> nrel_age_restictions: 0_plus;;

@@ -53,3 +53,10 @@ definition -> definition_of_alivaria_brewery_museum (*
 		nrel_provides_tours
 	};;
 *);;
+
+alivaria_brewery_museum
+	=> nrel_museum_type: beer_museum;
+	=> nrel_capacity: 100;
+	=> nrel_ticket_price: 20_to_33;
+	=> nrel_coordinates: 53.915170_27.561983;
+	=> nrel_age_restictions: 18_plus;;

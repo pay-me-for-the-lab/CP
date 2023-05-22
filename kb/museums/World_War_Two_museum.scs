@@ -62,3 +62,10 @@ statement -> statement_of_number_of_museum_items_at_the_moment (*
 		concept_materials
 	};;
 *);;
+
+world_war_two_museum
+	=> nrel_museum_type: history_museum;
+	=> nrel_capacity: 100_plus;
+	=> nrel_ticket_price: 7_to_9;
+	=> nrel_coordinates: 53.916388_27.537664;
+	=> nrel_age_restictions: 0_plus;;

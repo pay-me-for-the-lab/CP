@@ -70,3 +70,10 @@ definition -> definition_of_history_of_belarusian_literature_museum (*
 		nrel_belongs_to
 	};;
 *);;
+
+history_of_belarusian_literature_museum
+	=> nrel_museum_type: literature_museum;
+	=> nrel_capacity: 100_plus;
+	=> nrel_ticket_price: 1_to_15;
+	=> nrel_coordinates: 53.908580_27.557025;
+	=> nrel_age_restictions: 0_plus;;

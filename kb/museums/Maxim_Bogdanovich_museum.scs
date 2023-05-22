@@ -60,3 +60,10 @@ definition -> definition_of_maxim_bogdanovich_museum (*
 		nrel_related_to
 	};;
 *);;
+
+maxim_bogdanovich_museum
+	=> nrel_museum_type: literature_museum;
+	=> nrel_capacity: 100_plus;
+	=> nrel_ticket_price: not_specified;
+	=> nrel_coordinates: 53.908064_27.556109;
+	=> nrel_age_restictions: 0_plus;;

@@ -58,3 +58,11 @@ definition -> definition_of_house_of_the_first_congress_of_the_rsdlp_museum (*
 		nrel_organizes
 	};;
 *);;
+
+
+house_of_the_first_congress_of_the_rsdlp_museum
+	=> nrel_museum_type: home_museum;
+	=> nrel_capacity: 50_plus;
+	=> nrel_ticket_price: 5_to_10;
+	=> nrel_coordinates: 53.907833_27.571599;
+	=> nrel_age_restictions: 0_plus;;

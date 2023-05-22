@@ -49,3 +49,10 @@ definition -> definition_of_iron_museum (*
 		nrel_provides_insight_into
 	};;
 *);;
+
+iron_museum
+	=> nrel_museum_type: history_museum;
+	=> nrel_capacity: 10;
+	=> nrel_ticket_price: not_specified;
+	=> nrel_coordinates: 53.908508_27.556824;
+	=> nrel_age_restictions: 0_plus;;

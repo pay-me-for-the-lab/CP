@@ -72,3 +72,10 @@ definition -> definition_of_cat_museum (*
 		nrel_related_to_cat_owners_and_furry_friends
 	};;
 *);;
+
+cat_museum
+	=> nrel_museum_type: cat_museum;
+	=> nrel_capacity: 25_plus;
+	=> nrel_ticket_price: 10_to_12;
+	=> nrel_coordinates: 53.903887_27.558789;
+	=> nrel_age_restictions: 0_plus;;

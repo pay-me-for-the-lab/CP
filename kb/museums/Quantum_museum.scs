@@ -69,3 +69,10 @@ definition -> definition_of_quantum_museum (*
 		nrel_organizes_events_for
 	};;
 *);;
+
+quantum_museum
+	=> nrel_museum_type: interactive_museum;
+	=> nrel_capacity: 100_plus;
+	=> nrel_ticket_price: 9_to_200;
+	=> nrel_coordinates: 53.861322_27.478904;
+	=> nrel_age_restictions: 0_plus;;

@@ -56,3 +56,10 @@ definition -> definition_of_folk_architecture_and_life_museum (*
 		nrel_showcases
 	};;
 *);;
+
+folk_architecture_and_life_museum
+	=> nrel_museum_type: cat_museum;
+	=> nrel_capacity: 100_plus;
+	=> nrel_ticket_price: 10_to_125;
+	=> nrel_coordinates: 53.834225_27.374070;
+	=> nrel_age_restictions: 0_plus;;

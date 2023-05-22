@@ -46,3 +46,10 @@ definition -> definition_of_mini_country_museum (*
 		nrel_features
 	};;
 *);;
+
+mini_country_museum
+	=> nrel_museum_type: architecture_museum;
+	=> nrel_capacity: 100_plus;
+	=> nrel_ticket_price: 13_to_26;
+	=> nrel_coordinates: 53.903248_27.562912;
+	=> nrel_age_restictions: 0_plus;;

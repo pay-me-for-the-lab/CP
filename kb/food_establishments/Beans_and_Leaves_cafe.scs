@@ -56,6 +56,21 @@ definition -> definition_of_beans_and_leaves_cafe (*
 		nrel_offers_take_away_option;
 		nrel_serves_desserts_and_pastries;
 		nrel_located_in_galleria_minsk_shopping_mall;
-		nrel_located_in_doubleTree_by_hilton_minsk_hotel
+		nrel_located_in_doubletree_by_hilton_minsk_hotel
 	};;
 *);;
+
+beans_and_leaves_cafe
+	=> nrel_food_establishment_type: cafe;
+	=> nrel_capacity: 50_plus;
+	=> nrel_average_bill: from_20;
+	=> nrel_coordinates: 53.908486_27.548415;
+	=> nrel_type_of_food: 
+		breakfast;
+		lunch;
+		brunch;
+		barbecue;
+		grill;
+		vegan;
+	=> nrel_type_of_drink: 
+		not_specified;;

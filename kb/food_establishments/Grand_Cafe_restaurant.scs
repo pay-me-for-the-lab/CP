@@ -83,3 +83,24 @@ statement -> statement_of_performances_and_events (*
 		nrel_organizes
 	};;
 *);;
+
+grand_cafe_restaurant
+	=> nrel_food_establishment_type: restaurant;
+	=> nrel_capacity: 50_plus;
+	=> nrel_average_bill: 50_to_100;
+	=> nrel_coordinates: 53.902342_27.556067;
+	=> nrel_type_of_food: 
+		european;
+		international;
+		central_european;
+		vegan;
+		gluten_free;
+		lunch;
+		dinner;
+		brunch;
+	=> nrel_type_of_drink: 
+		juice;
+		wine;
+		champagne;
+		tea;
+		alcohol;;

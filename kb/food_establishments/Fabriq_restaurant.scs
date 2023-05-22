@@ -63,3 +63,24 @@ definition -> definition_of_fabriq_restaurant (*
 		nrel_makes_it_a_popular_destination
 	};;
 *);;
+
+fabriq_restaurant
+	=> nrel_food_establishment_type: restaurant;
+	=> nrel_capacity: 50_plus;
+	=> nrel_average_bill: 50_to_100;
+	=> nrel_coordinates: 53.904909_27.552291;
+	=> nrel_type_of_food: 
+		european;
+		italian;
+		pizza;
+		grill;
+		seafood;
+		dinner;
+		breakfast;
+	=> nrel_type_of_drink: 
+		tea;
+		coffee;
+		champagne;
+		alcohol;
+		cocktail;
+		wine;;

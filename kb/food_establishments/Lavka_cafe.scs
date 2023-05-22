@@ -64,3 +64,15 @@ definition -> definition_of_lavka_cafe (*
 		nrel_creating
 	};;
 *);;
+
+lavka_cafe
+	=> nrel_food_establishment_type: cafe;
+	=> nrel_capacity: 10_plus;
+	=> nrel_average_bill: 10_to_20;
+	=> nrel_coordinates: 53.889970_27.574810;
+	=> nrel_type_of_food: 
+		fast_food;
+		sandwich;
+	=> nrel_type_of_drink: 
+		coffee;
+		tea;;

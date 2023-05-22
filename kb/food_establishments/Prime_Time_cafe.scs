@@ -77,3 +77,15 @@ definition -> definition_of_prime_time_cafe (*
 		nrel_provides_setting_for
 	};;
 *);;
+
+prime_time_cafe
+	=> nrel_food_establishment_type: cafe;
+	=> nrel_capacity: 50_plus;
+	=> nrel_average_bill: 5;
+	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_type_of_food: 
+		armenian;
+		russian;
+	=> nrel_type_of_drink: 
+		cocktail;
+		vodka;;

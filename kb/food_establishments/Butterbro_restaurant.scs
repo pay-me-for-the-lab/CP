@@ -73,3 +73,22 @@ definition -> definition_of_butterbro_restaurant (*
 		nrel_make_it_a_great_choice_for
 	};;
 *);;
+
+butterbro_restaurant
+	=> nrel_food_establishment_type: restaurant;
+	=> nrel_capacity: 50_plus;
+	=> nrel_average_bill: from_60;
+	=> nrel_coordinates: 53.927016_27.589365;
+	=> nrel_type_of_food: 
+		european;
+		russian;
+		mediterranean;
+		vegan;
+		breakfast;
+		lunch;
+		dinner;
+		brunch;
+	=> nrel_type_of_drink: 
+		cocktail;
+		alcohol;
+		wine;;

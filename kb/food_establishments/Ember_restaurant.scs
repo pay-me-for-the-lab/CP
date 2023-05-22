@@ -61,3 +61,25 @@ definition -> definition_of_ember_restaurant (*
 		nrel_sophisticated
 	};;
 *);;
+
+ember_restaurant
+	=> nrel_food_establishment_type: restaurant;
+	=> nrel_capacity: 50_plus;
+	=> nrel_average_bill: 5;
+	=> nrel_coordinates: 53.908274_27.547881;
+	=> nrel_type_of_food: 
+		mediterranean;
+		grill;
+		seafood;
+		vegan;
+		gluten_free;
+		breakfast;
+		lunch;
+		dinner;
+	=> nrel_type_of_drink: 
+		tea;
+		coffee;
+		champagne;
+		alcohol;
+		cocktail;
+		wine;;

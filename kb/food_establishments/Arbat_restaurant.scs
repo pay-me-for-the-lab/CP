@@ -69,3 +69,20 @@ definition -> definition_of_arbat_restaurant (*
 		nrel_offers_a_delightful_culinary_journey
 	};;
 *);;
+
+arbat_restaurant
+	=> nrel_food_establishment_type: restaurant;
+	=> nrel_capacity: 50_plus;
+	=> nrel_average_bill: 50_to_60;
+	=> nrel_coordinates: 53.934309_27.648258;
+	=> nrel_type_of_food: 
+		european;
+		belarusian;
+		homemade;
+		dinner;
+		lunch;
+		brunch;
+	=> nrel_type_of_drink: 
+		alcohol;
+		wine;
+		beer;;

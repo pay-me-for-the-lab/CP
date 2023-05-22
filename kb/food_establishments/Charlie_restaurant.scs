@@ -60,3 +60,25 @@ definition -> definition_of_charlie_restaurant (*
 		nrel_strives_to_create
 	};;
 *);;
+
+charlie_restaurant
+	=> nrel_food_establishment_type: restaurant;
+	=> nrel_capacity: 50;
+	=> nrel_average_bill: 40_to_90;
+	=> nrel_coordinates: 53.908579_27.571286;
+	=> nrel_type_of_food: 
+		french;
+		seafood;
+		european;
+		contemporary;
+		soups;
+		breakfast;
+		lunch;
+		dinner;
+		brunch;
+	=> nrel_type_of_drink: 
+		wine;
+		alcohol;
+		cocktail;
+		tea;
+		champagne;;

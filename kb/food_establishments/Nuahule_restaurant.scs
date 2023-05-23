@@ -78,12 +78,21 @@ definition -> definition_of_nuahule_restaurant (*
 
 nuahule_restaurant
 	=> nrel_food_establishment_type: restaurant;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_average_bill: not_specified;
+	=> nrel_coordinates: 53.913489_27.576079;
 	=> nrel_type_of_food: 
-		armenian;
-		russian;
+		american;
+		european;
+		breakfast;
+		lunch;
+		dinner;
+		brunch;
+		fast_food;
 	=> nrel_type_of_drink: 
-		cocktail;
-		vodka;;
+		wine;
+		alcohol;
+		beer;
+		coffee;
+		tea;;

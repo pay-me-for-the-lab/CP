@@ -64,6 +64,7 @@ definition -> definition_of_ember_restaurant (*
 
 ember_restaurant
 	=> nrel_food_establishment_type: restaurant;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 50_plus;
 	=> nrel_average_bill: 5;
 	=> nrel_coordinates: 53.908274_27.547881;

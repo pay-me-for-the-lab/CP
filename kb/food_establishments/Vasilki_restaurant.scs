@@ -77,12 +77,23 @@ definition -> definition_of_vasilki_restaurant (*
 
 vasilki_restaurant
 	=> nrel_food_establishment_type: restaurant;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_average_bill: 34_to_45;
+	=> nrel_coordinates: 53.898215_27.555022;
 	=> nrel_type_of_food: 
-		armenian;
+		european;
 		russian;
+		eastern_european;
+		central_european;
+		vegan;
+		breakfast;
+		lunch;
+		dinner;
+		brunch;
 	=> nrel_type_of_drink: 
-		cocktail;
-		vodka;;
+		alcohol;
+		wine;
+		champagne;
+		juice;
+		tea;;

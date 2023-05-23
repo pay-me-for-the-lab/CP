@@ -76,12 +76,18 @@ definition -> definition_of_sochi_restaurant (*
 
 sochi_restaurant
 	=> nrel_food_establishment_type: restaurant;
-	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_age_restictions: 0_plus;
+	=> nrel_capacity: 30_plus;
+	=> nrel_average_bill: from_50;
+	=> nrel_coordinates: 53.893003_27.494094;
 	=> nrel_type_of_food: 
-		armenian;
-		russian;
+		european;
+		vegan;
+		lunch;
+		dinner;
 	=> nrel_type_of_drink: 
-		cocktail;
-		vodka;;
+		alcohol;
+		vodka;
+		wine;
+		champagne;
+		coffee;;

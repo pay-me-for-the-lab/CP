@@ -67,6 +67,7 @@ definition -> definition_of_lavka_cafe (*
 
 lavka_cafe
 	=> nrel_food_establishment_type: cafe;
+	=> nrel_age_restictions: 0_plus;	
 	=> nrel_capacity: 10_plus;
 	=> nrel_average_bill: 10_to_20;
 	=> nrel_coordinates: 53.889970_27.574810;

@@ -83,12 +83,20 @@ definition -> definition_of_zalkind_kitchen_restaurant (*
 
 zalkind_kitchen_restaurant
 	=> nrel_food_establishment_type: restaurant;
-	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_age_restictions: 0_plus;
+	=> nrel_capacity: 30_plus;
+	=> nrel_average_bill: not_specified;
+	=> nrel_coordinates: 53.902409_27.551228;
 	=> nrel_type_of_food: 
-		armenian;
-		russian;
+		mediterranean;
+		middle_eastern;
+		breakfast;
+		lunch;
+		dinner;
+		brunch;
+		soups;
 	=> nrel_type_of_drink: 
-		cocktail;
-		vodka;;
+		alcohol;
+		wine;
+		coffee;
+		tea;;

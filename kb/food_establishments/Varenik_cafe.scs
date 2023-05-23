@@ -75,12 +75,20 @@ definition -> definition_of_varenik_cafe (*
 
 varenik_cafe
 	=> nrel_food_establishment_type: cafe;
-	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_age_restictions: 0_plus;
+	=> nrel_capacity: 30_plus;
+	=> nrel_average_bill: not_specified;
+	=> nrel_coordinates: 53.901367_27.601353;
 	=> nrel_type_of_food: 
-		armenian;
-		russian;
+		european;
+		breakfast;
+		soups;
+		lunch;
+		dinner;
+		brunch;
 	=> nrel_type_of_drink: 
-		cocktail;
-		vodka;;
+		alcohol;
+		beer;
+		wine;
+		tea;
+		cocktail;;

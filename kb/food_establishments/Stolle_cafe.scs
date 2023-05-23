@@ -72,12 +72,17 @@ definition -> definition_of_stolle_cafe (*
 
 stolle_cafe
 	=> nrel_food_establishment_type: cafe;
-	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_age_restictions: 0_plus;
+	=> nrel_capacity: 30;
+	=> nrel_average_bill: 12_to_18;
+	=> nrel_coordinates: 53.917957_27.587361;
 	=> nrel_type_of_food: 
-		armenian;
-		russian;
+		european;
+		belarusian;
+		lunch;
+		dinner;
+		brunch;
+		pies;
 	=> nrel_type_of_drink: 
-		cocktail;
-		vodka;;
+		coffee;
+		tea;;

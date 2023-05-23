@@ -74,12 +74,13 @@ definition -> definition_of_mimino_restaurant (*
 
 mimino_restaurant
 	=> nrel_food_establishment_type: restaurant;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_average_bill: 48_to_72;
+	=> nrel_coordinates: 53.932412_27.560654;
 	=> nrel_type_of_food: 
-		armenian;
-		russian;
+		lunch;
+		dinner;
 	=> nrel_type_of_drink: 
-		cocktail;
-		vodka;;
+		alcohol;
+		wine;;

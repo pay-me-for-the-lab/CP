@@ -71,12 +71,22 @@ definition -> definition_of_the_view_restaurant (*
 
 the_view_restaurant
 	=> nrel_food_establishment_type: restaurant;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_average_bill: 100_to_150;
+	=> nrel_coordinates: 53.907724_27.549701;
 	=> nrel_type_of_food: 
-		armenian;
-		russian;
+		european;
+		central_european;
+		vegan;
+		gluten_free;
+		lunch;
+		dinner;
+		brunch;
 	=> nrel_type_of_drink: 
 		cocktail;
-		vodka;;
+		alcohol;
+		wine;
+		champagne;
+		coffee;
+		tea;;

@@ -73,12 +73,23 @@ definition -> definition_of_tavern_on_the_park_restaurant (*
 
 tavern_on_the_park_restaurant
 	=> nrel_food_establishment_type: restaurant;
-	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_age_restictions: 0_plus;
+	=> nrel_capacity: 40_plus;
+	=> nrel_average_bill: 40_to_100;
+	=> nrel_coordinates: 53.908993_27.547955;
 	=> nrel_type_of_food: 
-		armenian;
+		barbecue;
+		european;
 		russian;
+		eastern_european;
+		central_european;
+		vegan;
+		brunch;
+		lunch;
+		dinner;
+		soups;
 	=> nrel_type_of_drink: 
-		cocktail;
-		vodka;;
+		juice;
+		vodka;
+		alcohol;
+		beer;;

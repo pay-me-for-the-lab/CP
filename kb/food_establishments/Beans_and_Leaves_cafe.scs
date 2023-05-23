@@ -62,6 +62,7 @@ definition -> definition_of_beans_and_leaves_cafe (*
 
 beans_and_leaves_cafe
 	=> nrel_food_establishment_type: cafe;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 50_plus;
 	=> nrel_average_bill: from_20;
 	=> nrel_coordinates: 53.908486_27.548415;

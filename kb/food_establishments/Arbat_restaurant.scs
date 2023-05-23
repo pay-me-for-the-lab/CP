@@ -72,6 +72,7 @@ definition -> definition_of_arbat_restaurant (*
 
 arbat_restaurant
 	=> nrel_food_establishment_type: restaurant;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 50_plus;
 	=> nrel_average_bill: 50_to_60;
 	=> nrel_coordinates: 53.934309_27.648258;

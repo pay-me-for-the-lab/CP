@@ -79,12 +79,17 @@ definition -> definition_of_ovino_restaurant (*
 
 ovino_restaurant
 	=> nrel_food_establishment_type: restaurant;
-	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_age_restictions: 0_plus;
+	=> nrel_capacity: 25_plus;
+	=> nrel_average_bill: 5_to_50;
+	=> nrel_coordinates: 53.913825_27.580520;
 	=> nrel_type_of_food: 
-		armenian;
-		russian;
+		european;
+		mediterranean;
+		vegan;
+		lunch;
+		dinner;
 	=> nrel_type_of_drink: 
-		cocktail;
-		vodka;;
+		wine;
+		alcohol;
+		champagne;;

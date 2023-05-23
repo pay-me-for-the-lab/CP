@@ -80,12 +80,17 @@ definition -> definition_of_maslow6_restaurant (*
 
 maslow6_restaurant
 	=> nrel_food_establishment_type: restaurant;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_average_bill: 60_to_120;
+	=> nrel_coordinates: 53.904584_27.558870;
 	=> nrel_type_of_food: 
-		armenian;
-		russian;
+		european;
+		vegan;
+		lunch;
+		dinner;
+		breakfast;
 	=> nrel_type_of_drink: 
-		cocktail;
-		vodka;;
+		champagne;
+		alcohol;
+		cocktail;;

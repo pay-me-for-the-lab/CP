@@ -86,6 +86,7 @@ statement -> statement_of_performances_and_events (*
 
 grand_cafe_restaurant
 	=> nrel_food_establishment_type: restaurant;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 50_plus;
 	=> nrel_average_bill: 50_to_100;
 	=> nrel_coordinates: 53.902342_27.556067;

@@ -83,12 +83,23 @@ definition -> definition_of_news_cafe_cafe (*
 
 news_cafe_cafe
 	=> nrel_food_establishment_type: cafe;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 50_plus;
-	=> nrel_average_bill: 5;
-	=> nrel_coordinates: 53.919480_27.600145;
+	=> nrel_average_bill: 60_to_70;
+	=> nrel_coordinates: 53.899765_27.561759;
 	=> nrel_type_of_food: 
-		armenian;
-		russian;
+		italian;
+		european;
+		central_european;
+		vegan;
+		breakfast;
+		lunch;
+		dinner;
+		brunch;
 	=> nrel_type_of_drink: 
-		cocktail;
-		vodka;;
+		alcohol;
+		wine;
+		champagne;
+		juice;
+		coffee;
+		tea;;

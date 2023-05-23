@@ -69,6 +69,7 @@ definition -> definition_of_dolce_cafe (*
 
 dolce_cafe
 	=> nrel_food_establishment_type: cafe;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 25;
 	=> nrel_average_bill: 35_to_52;
 	=> nrel_coordinates: 53.903637_27.551610;

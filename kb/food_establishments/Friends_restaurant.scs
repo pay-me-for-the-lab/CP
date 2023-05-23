@@ -67,6 +67,7 @@ definition -> definition_of_friends_restaurant (*
 
 friends_restaurant
 	=> nrel_food_establishment_type: restaurant;
+	=> nrel_age_restictions: 0_plus;
 	=> nrel_capacity: 100_plus;
 	=> nrel_average_bill: 50_to_65;
 	=> nrel_coordinates: 53.927932_27.568004;

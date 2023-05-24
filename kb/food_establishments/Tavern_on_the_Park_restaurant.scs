@@ -1,14 +1,14 @@
 tavern_on_the_park_restaurant
 <- concept_food_establishment;
 => nrel_main_idtf:
-	[Ресторан "Tavern on the Park"] (* <- lang_ru;; *);
+	[Ресторан "Трактиръ"] (* <- lang_ru;; *);
 	[Tavern on the Park restaurant] (* <- lang_en;; *);
 
 <- rrel_key_sc_element: ...
 (*
  <- illustration;;
  => nrel_main_idtf:
-  	[Ресторан "Tavern on the Park"] (* <- lang_ru;; *);
+  	[Ресторан "Трактиръ"] (* <- lang_ru;; *);
 	[Tavern on the Park restaurant] (* <- lang_en;; *);;
  <= nrel_sc_text_translation: ...
  (*
@@ -23,12 +23,12 @@ definition -> definition_of_tavern_on_the_park_restaurant (*
 	-> rrel_key_sc_element: tavern_on_the_park_restaurant;;
 
 	<= nrel_sc_text_translation: ... (*
-		-> [Ресторан "Tavern on the Park" - это очаровательное заведение общественного питания, расположенное в Минске, Беларусь. Расположенный в живописном парковом окружении, ресторан предлагает прекрасную возможность побежать от суеты городской атмосферы. Меню в ресторане "Tavern on the Park" представляет собой сочетание международных вкусов и местных специалитетов, приготовленных из свежих и сезонных ингредиентов. Гости могут насладиться разнообразием закусок, основных блюд и десертов, дополняемых тщательно подобранным выбором вин и напитков. Теплая и уютная атмосфера ресторана, в сочетании с живописным видом на парк, создает спокойную и привлекательную обстановку, в которой гости могут расслабиться и насладиться своими блюдами. С внимательным обслуживанием и кулинарными изысками, ресторан "Tavern on the Park" является популярным местом как для неформальных посиделок, так и для особых событий.] (* <- lang_ru;; *);;
+		-> [Ресторан "Трактиръ" - это очаровательное заведение общественного питания, расположенное в Минске, Беларусь. Расположенный в живописном парковом окружении, ресторан предлагает прекрасную возможность побежать от суеты городской атмосферы. Меню в ресторане "Tavern on the Park" представляет собой сочетание международных вкусов и местных специалитетов, приготовленных из свежих и сезонных ингредиентов. Гости могут насладиться разнообразием закусок, основных блюд и десертов, дополняемых тщательно подобранным выбором вин и напитков. Теплая и уютная атмосфера ресторана, в сочетании с живописным видом на парк, создает спокойную и привлекательную обстановку, в которой гости могут расслабиться и насладиться своими блюдами. С внимательным обслуживанием и кулинарными изысками, ресторан "Tavern on the Park" является популярным местом как для неформальных посиделок, так и для особых событий.] (* <- lang_ru;; *);;
 		-> [Tavern on the Park restaurant is a charming dining venue located in Minsk, Belarus. Situated in a picturesque park setting, the restaurant offers a delightful escape from the bustling city atmosphere. The menu at Tavern on the Park restaurant showcases a fusion of international flavors and local specialties, prepared with fresh and seasonal ingredients. Guests can enjoy a range of appetizers, main courses, and desserts, complemented by a carefully curated selection of wines and beverages. The restaurant's warm and rustic ambiance, combined with its scenic views of the park, creates a serene and inviting atmosphere for diners to relax and enjoy their meals. With its attentive service and culinary delights, Tavern on the Park restaurant is a popular destination for both casual dining and special occasions.] (* <- lang_en;; *);;
 	*);;
 
 	=> nrel_main_idtf:
-		[Опр. (Ресторан "Tavern on the Park")] (* <- lang_ru;; *);
+		[Опр. (Ресторан "Трактиръ")] (* <- lang_ru;; *);
 		[Def. (Tavern on the Park restaurant)] (* <- lang_en;; *);;
 
 	=> nrel_using_constants: {
